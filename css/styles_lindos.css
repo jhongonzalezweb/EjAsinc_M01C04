@@ -1,0 +1,59 @@
+body {
+    background-image: url("/img/fondo.jpg");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    padding-top: 30px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 100px;
+}
+
+.nav .logo {
+    width: 150px;
+    float: left;}
+
+.nav .item {
+    width: 150px;    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: aqua;
+}
+
+.video {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 900px;
+}
+
+.lado_left {
+    float: left;
+    width: 50%;}
+
+.lado_right {
+    font-style: italic;
+    float: right;
+    width: 50%;}
+
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.geo_info {
+    height: 750px;
+}
+
+.footer {
+    text-align: center;
+}
